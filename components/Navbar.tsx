@@ -13,7 +13,7 @@ const Navbar = async () => {
             <span className="font-bold text-xl">B.</span>
           </h1>
         </Link>
-        <div className="flex  items-center card-bg px-[12px] py-[6px] rounded-2xl overflow-hidden gap-5">
+        <div className="flex items-center card-bg px-[12px] py-[6px] rounded-2xl overflow-hidden gap-5">
           {session && session?.user ? (
             <>
               <Link href="/startup/create">
